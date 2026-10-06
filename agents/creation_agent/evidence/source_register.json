@@ -1,0 +1,44 @@
+[
+  {
+    "claim": "S1: Transformer architecture supports parallelizable sequence modelling.",
+    "source_or_reference": "https://arxiv.org/abs/1706.03762",
+    "date_or_recency": "2017-06-12; checked 2026-10-06",
+    "evidence_type": "Original research",
+    "notes": "Architecture predecessor; not evidence about RAG value or Chinese/English product accuracy."
+  },
+  {
+    "claim": "S2: BART introduced denoising pretraining for sequence-to-sequence generation.",
+    "source_or_reference": "https://arxiv.org/abs/1910.13461",
+    "date_or_recency": "2019-10-29; checked 2026-10-06",
+    "evidence_type": "Original research",
+    "notes": "Generation predecessor; its benchmark results do not establish this application."
+  },
+  {
+    "claim": "S3: DPR used learned dense representations to retrieve passages.",
+    "source_or_reference": "https://arxiv.org/abs/2004.04906",
+    "date_or_recency": "2020-04-10; checked 2026-10-06",
+    "evidence_type": "Original research",
+    "notes": "Retrieval predecessor; relevance is not document authority or approval."
+  },
+  {
+    "claim": "S4: RAG combined a pretrained generator with external retrieval for knowledge-intensive generation.",
+    "source_or_reference": "https://arxiv.org/abs/2005.11401",
+    "date_or_recency": "2020-05-22; checked 2026-10-06",
+    "evidence_type": "Original research",
+    "notes": "Methods sections 2.2 and 2.3 identify DPR and BART: https://arxiv.org/html/2005.11401v4 . Original fine-tuned RAG differs from a modern retrieve-then-prompt workflow. This is a milestone, not the origin of all retrieval-assisted NLP."
+  },
+  {
+    "claim": "S5: Tested models were sensitive to the position of relevant information in long contexts.",
+    "source_or_reference": "https://arxiv.org/abs/2307.03172",
+    "date_or_recency": "2023-07-06; checked 2026-10-06",
+    "evidence_type": "Original research",
+    "notes": "Contrary evidence: supplying information does not ensure it is used correctly. Does not establish failure rates of all present-day models."
+  },
+  {
+    "claim": "S6: Provider documentation describes retrieval and generation from proprietary sources, including citations.",
+    "source_or_reference": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
+    "date_or_recency": "Living documentation; retrieved 2026-10-06; checked 2026-10-06",
+    "evidence_type": "Official vendor documentation",
+    "notes": "Evidence of packaged provider support, not independent reliability, adoption prevalence, ROI, or vendor selection advice."
+  }
+]
