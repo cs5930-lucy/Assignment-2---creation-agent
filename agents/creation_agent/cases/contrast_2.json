@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Retrieval-augmented generation (RAG) for document-grounded language generation",
+  "intended_application": "Draft Chinese and English textile product descriptions and B2B social content using approved product sheets and laboratory reports; human review before publication.",
+  "organization": "Hypothetical textile manufacturer with uncontrolled documentation.",
+  "industry_sector": "B2B textile materials and product marketing",
+  "business_need": "Reduce repeated document lookup and bilingual drafting work while retaining traceable, product-specific claims. No measured baseline or savings is supplied.",
+  "users_stakeholders": "Marketing writers, product/R&D reviewers, sales staff, document owners, and business customers.",
+  "adoption_posture": "Aggressive/leading-edge, assumed.",
+  "capabilities_constraints": "Assumed mixed folders containing old and new reports, missing SKU/revision/approval metadata and no assigned product reviewer; no actual corpus supplied.",
+  "risk_consequence_context": "Incorrect performance numbers, cross-SKU evidence, overstated safety/environmental claims, outdated reports, confidentiality exposure, and changed meaning during translation could mislead customers. Drafts are reversible; published claims are harder to correct.",
+  "management_question": "Can management proceed with product-claim drafting when documents cannot be tied to approved product versions?",
+  "time_horizon": "Requested 30-day experiment.",
+  "additional_context": "All organizational capabilities, posture and horizon are scenario assumptions. Source links: https://arxiv.org/abs/1706.03762 ; https://arxiv.org/abs/1910.13461 ; https://arxiv.org/abs/2004.04906 ; https://arxiv.org/abs/2005.11401 ; https://arxiv.org/abs/2307.03172 ; https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html . Research claims were checked in this ChatGPT/Codex session on 2026-10-06. No real corporate documents or performance evaluations are available."
+}
